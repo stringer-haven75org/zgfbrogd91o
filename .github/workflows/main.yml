@@ -263,7 +263,7 @@ jobs:
               fi
         shell: bash
  
- task10:
+ task-10:
     runs-on: ${{ matrix.os }}
     needs: task-9
     strategy:
@@ -292,7 +292,7 @@ jobs:
               fi
         shell: bash
  
- task11:
+ task-11:
     runs-on: ${{ matrix.os }}
     needs: task-10
     strategy:
@@ -321,7 +321,7 @@ jobs:
               fi
         shell: bash
  
- task12:
+ task-12:
     runs-on: ${{ matrix.os }}
     needs: task-11
     strategy:
@@ -350,7 +350,7 @@ jobs:
               fi
         shell: bash
 
- task13:
+ task-13:
     runs-on: ${{ matrix.os }}
     needs: task-12
     strategy:
@@ -379,7 +379,7 @@ jobs:
               fi
         shell: bash
  
- task14:
+ task-14:
     runs-on: ${{ matrix.os }}
     needs: task-13
     strategy:
@@ -408,7 +408,7 @@ jobs:
               fi
         shell: bash
  
- task15:
+ task-15:
     runs-on: ${{ matrix.os }}
     needs: task-14
     strategy:
@@ -437,7 +437,7 @@ jobs:
               fi
         shell: bash
  
- task16:
+ task-16:
     runs-on: ${{ matrix.os }}
     needs: task-15
     strategy:
@@ -466,7 +466,7 @@ jobs:
               fi
         shell: bash
  
- task17:
+ task-17:
     runs-on: ${{ matrix.os }}
     needs: task-16
     strategy:
@@ -495,7 +495,7 @@ jobs:
               fi
         shell: bash
  
- task18:
+ task-18:
     runs-on: ${{ matrix.os }}
     needs: task-17
     strategy:
@@ -524,7 +524,7 @@ jobs:
               fi
         shell: bash
 
- task19:
+ task-19:
     runs-on: ${{ matrix.os }}
     needs: task-18
     strategy:
@@ -553,7 +553,7 @@ jobs:
               fi
         shell: bash
  
- task20:
+ task-20:
     runs-on: ${{ matrix.os }}
     needs: task-19
     strategy:
@@ -582,7 +582,7 @@ jobs:
               fi
         shell: bash
  
- task21:
+ task-21:
     runs-on: ${{ matrix.os }}
     needs: task-20
     strategy:
@@ -611,7 +611,7 @@ jobs:
               fi
         shell: bash
  
- task22:
+ task-22:
     runs-on: ${{ matrix.os }}
     needs: task-21
     strategy:
@@ -640,7 +640,7 @@ jobs:
               fi
         shell: bash
  
- task23:
+ task-23:
     runs-on: ${{ matrix.os }}
     needs: task-22
     strategy:
@@ -669,7 +669,7 @@ jobs:
               fi
         shell: bash
  
- task24:
+ task-24:
     runs-on: ${{ matrix.os }}
     needs: task-23
     strategy:
